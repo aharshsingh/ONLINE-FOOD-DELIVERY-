@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Food Delivery | Home</title>
+
+    <style>
+        body {
+            background-image: url(bodybackgroung.jpg);
+            font-family: cursive;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 70px;
+            color: rgb(255, 255, 255);
+        }
+        
+        h2 {
+            text-align: center;
+            font-size: 60px;
+            text-decoration: underline;
+            text-shadow: 3px 3px 2px rgb(175, 111, 14);
+        }
+        
+        .background {
+            background-image: url(ffhr.jpg);
+            height: 100px;
+        }
+        
+        .h3bg {
+            font-size: 40px;
+            background-color: rgba(69, 72, 107, 0.747);
+            width: 190px;
+        }
+        
+        .ff {
+            font-size: 25px;
+            font-weight: 600;
+        }
+        
+        img {
+            border: 5px solid #555;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="background">
+        <h1><i>WELCOME TO FOOD JUNCTION</i></h1>
+    </div>
+    </br>
+    </br>
+    </br>
+    <h2>MENU</h2>
+    </br>
+    <h3 class="h3bg">Starters:</h3>
+    </br>
+    <p class="ff">
+        French Fries Rs.150 <input type="checkbox">
+        <img src="th.jpg" width="250" height="200"> Chicken Wings Rs.450<input type="checkbox">
+        <img src="th (1).jpg" width="250" height="200"> Salad Rs.90<input type="checkbox">
+        <img src="th (2).jpg" width="250" height="200">
+    </p>
+    </br>
+    <h3 class="h3bg">Burger:</h3>
+    <p class="ff">
+        Veg Burger Rs.70<input type="checkbox">
+        <img src="th (3).jpg" width="250px" height="200px"> chicken Burger Rs.110 <input type="checkbox">
+        <img src="th (4).jpg" width="250" height="200"> Ham Burger Rs.125 <input type="checkbox">
+        <img src="th (5).jpg" width="250" height="200">
+    </p>
+    </br>
+    <h3 class="h3bg">Pizzas:</h3>
+    <p class="ff">
+        Cheese Pizza Rs.180<input type="checkbox">
+        <img src="th (6).jpg" width="250px" height="200px"> Mushroom Pizza Rs.210 <input type="checkbox">
+        <img src="th (7).jpg" width="250" height="200"> Chilly Corn Pizza Rs.210<input type="checkbox">
+        <img src="th (8).jpg" width="250" height="200">
+    </p>
+    </br>
+    </br>
+    </br>
+    <a href="file:///C:/Users/harsh/OneDrive/Desktop/HTML/payment%20form.html"><img src="Capturehhh.PNG" alt="Please click to place order"> </a>
+</body>
+
+</html>

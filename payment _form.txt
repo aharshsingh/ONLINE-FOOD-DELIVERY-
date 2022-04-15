@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>payment gateway</title>
+    <style>
+        h1 {
+            color: rgba(6, 22, 94, 0.993);
+            font-size: 55px;
+        }
+        
+        #colo {
+            color: rgb(212, 153, 64);
+            font-size: 40PX;
+        }
+        
+        p.colour {
+            color: rgba(24, 45, 58, 0.781);
+            font-weight: 700;
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+
+
+<body bgcolor="grey">
+    <form>
+        <h1>Payment Form</h1>
+        <hr size="5" color="green">
+        <h2 id="colo">Customer Information:</h2>
+        <p class="colour">Firstname:* <input type="text" required> Surname:* <input type="text" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p class="colour"> Male: <input type="radio" name="gender"> Female: <input type="radio" name="gender"> Others: <input type="radio" name="gender"></p>
+        </fieldset>
+        <p class="colour">Address:* <textarea cols="50" rows="2" required></textarea></p>
+        <p class="colour">Email: <input type="email"></p>
+        <p class="colour">Phone Number:* <input type="tel" required></p>
+        <h2 id="colo">Payment Details:</h2>
+        <p class="colour"> Card Type:*
+            <select required>
+                <option value="">--Select card type--</option>
+                <option value="American Expreess">American Expreess</option>
+                <option value="visa">visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Rupay">Rupay</option>
+            </select>
+        </p>
+        <p class="colour">Card Number:* <input type="number" required></p>
+        <p class="colour">Card Expiry Date:* <input type="date" required></p>
+        <p class="colour">CVV:* <input type="password" required></p>
+        <input type="submit" value="Pay Now">
+        <input type="Reset" value="Reset">
+    </form>
+</body>
+
+</html>
